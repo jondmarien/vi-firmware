@@ -1,0 +1,1 @@
+{ "name": "rf_signal_simulator", "buses": { "hs": { "controller": 1, "speed": 500000 } }, "messages": { "0x102": { "name": "RF_Signal_Source", "bus": "hs", "signals": { "RF_Signal_Strength": {

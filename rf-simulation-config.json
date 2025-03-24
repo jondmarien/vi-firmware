@@ -1,0 +1,33 @@
+{
+  "name": "rf_signal_simulator",
+  "buses": {
+    "hs": {
+      "controller": 1,
+      "speed": 500000
+    }
+  },
+  "messages": {
+    "0x102": {
+      "name": "RF_Signal_Source",
+      "bus": "hs",
+      "signals": {
+        "RF_Signal_Strength": {
+          "generic_name": "rf_signal_strength",
+          "bit_position": 0,
+          "bit_size": 16
+        },
+        "RF_Frequency": {
+          "generic_name": "rf_frequency",
+          "bit_position": 16,
+          "bit_size": 16
+        },
+        "Signal_Type": {
+          "generic_name": "signal_type",
+          "bit_position": 32,
+          "bit_size": 3
+        }
+      }
+    }
+  }
+}
+
